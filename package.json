@@ -22,6 +22,8 @@
     "@angular/platform-browser-dynamic": "^2.4.0",
     "@angular/router": "^3.4.0",
     "core-js": "^2.4.1",
+    "jquery": "^3.1.1",
+    "owl.carousel": "^2.2.0",
     "rxjs": "^5.1.0",
     "zone.js": "^0.7.6"
   },
@@ -30,7 +32,9 @@
     "@angular/compiler-cli": "^2.4.0",
     "@angularclass/hmr": "^1.2.2",
     "@types/jasmine": "2.5.38",
+    "@types/jquery": "^2.0.40",
     "@types/node": "~6.0.60",
+    "@types/owlcarousel": "^1.3.0",
     "codelyzer": "~2.0.0-beta.4",
     "jasmine-core": "~2.5.2",
     "jasmine-spec-reporter": "~3.2.0",

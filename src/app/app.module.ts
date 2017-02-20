@@ -1,3 +1,4 @@
+import { TickerCarouselModule } from './ticker-carousel';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -12,7 +13,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    TickerCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,64 @@
+:host /deep/ ticker-carousel {
+  height: 3.8em;
+  overflow: hidden;
+}
+
+:host /deep/ .owl-dots .owl-dot.active span,
+:host /deep/ .owl-dots .owl-dot:hover span {
+  background: #869791;
+}
+
+:host /deep/ .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 4px 7px;
+  /*background: #d6d6d6;*/
+  background: #869791 !important;
+  display: block;
+  -webkit-backface-visibility: visible;
+  -webkit-transition: opacity 200ms ease;
+  -moz-transition: opacity 200ms ease;
+  -ms-transition: opacity 200ms ease;
+  -o-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+:host /deep/ .owl-dot.active span {
+  background: #E6E6E6 !important;
+  /*background: #ffffff !important;*/
+}
+
+:host /deep/ .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1;
+}
+
+:host /deep/ .owl-controls .owl-dot, .ticker-carousel .owl-controls .owl-nav .owl-next,
+:host /deep/ .owl-controls .owl-nav .owl-prev {
+  cursor: pointer;
+  cursor: hand;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+:host /deep/ .owl-dots {
+  margin-top: -3px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:host /deep/ .owl-carousel .owl-item img {
+  height: 3em;
+}
+
+.ticker {
+  width: 1em;
+  height: 1em;
+  background-color: green;
+}
