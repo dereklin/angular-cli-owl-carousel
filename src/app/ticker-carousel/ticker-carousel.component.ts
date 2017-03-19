@@ -1,7 +1,7 @@
 import { Observable } from 'rxjs/Observable';
 import { ElementRef, Component, Input, HostBinding, ChangeDetectionStrategy } from '@angular/core';
-import * as $ from 'jquery';
-import 'owl.carousel';
+declare var $: any;
+
 
 @Component({
     selector: 'ticker-carousel',
